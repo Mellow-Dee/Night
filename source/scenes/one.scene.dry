@@ -7,7 +7,7 @@ You look at each other for a moment. Someone mentions food. You all head as one 
 - @drink : Caffiene is bliss
 - @eat : Are you not hungry?
 
-@eat
+@drink
 new-page: false
 choose-if: tired > 0
 unavailable-subtitle: You'll already be up all night...
@@ -17,7 +17,7 @@ go-to: @end-activity
 Coffee, tea, energy drinks, each of you picks your poison.
 
 
-@brawl
+@eat
 new-page: false
 choose-if: hunger < 5
 unavailable-subtitle: You are too tired to eat.
