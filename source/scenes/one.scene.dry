@@ -2,7 +2,12 @@ title: Get some food
 new-page: true
 tags: top
 
-You look at each other for a moment. Someone mentions food. You all head as one to your favored haunt.
+You look at each other for a moment. 
+
+#Someone mentions food. 
+"Is anyone else starving?" Anne asks.
+
+You all head as one to your favored haunt.
 
 - @drink : Caffiene is bliss
 - @eat : Are you not hungry?
@@ -15,11 +20,10 @@ on-departure: tired -= 1
 
 Coffee, tea, energy drinks, each of you picks your poison.
 
-
 @eat
 new-page: false
-choose-if: hunger < 5
+choose-if: tired < 5
 unavailable-subtitle: You are too tired to eat.
 on-departure: tired += 1
 
-You've all worked hard, and now you're starving. You eat and eat and eat
+You've all worked hard, and now you're starving.
