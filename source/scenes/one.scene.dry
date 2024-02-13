@@ -12,7 +12,6 @@ new-page: false
 choose-if: tired > 0
 unavailable-subtitle: You'll already be up all night...
 on-departure: tired -= 1
-go-to: @end-activity
 
 Coffee, tea, energy drinks, each of you picks your poison.
 
@@ -22,6 +21,5 @@ new-page: false
 choose-if: hunger < 5
 unavailable-subtitle: You are too tired to eat.
 on-departure: tired += 1
-go-to: @end-activity
 
 You've all worked hard, and now you're starving. You eat and eat and eat
