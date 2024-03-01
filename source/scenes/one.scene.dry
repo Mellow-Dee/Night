@@ -4,12 +4,11 @@ tags: top
 
 You look at each other for a moment. 
 
-#Someone mentions food. 
-"Is anyone else starving?" Anne asks.
+Someone mentions food. 
 
 You all head as one to your favored haunt.
 
-- @drink : Caffiene is bliss
+- @drink : You need to wake up.
 - @eat : You're all hungry...
 
 @drink
@@ -18,23 +17,45 @@ choose-if: tired > 0
 unavailable-subtitle: You'll already be up all night...
 on-departure: tired -= 1
 
-#Coffee, tea, energy drinks, each of you picks your poison.
-"Fuck yeah, coffee!" Anne exclaims. "Doesn't look half bad either. Now to jazz it up!"
-"Is that a 5-hour energy? And you're wasting it in your coffee?" Ben sighs. "At least give me a sip?"
-"Are any of you planning on sleeping tonight?" asks Lindsay, exasperated.
+Coffee, tea, strange potions, each of you picks your poison.
 
-- @assignment: You have a project due at 8am.
-- @merriment: Not on your life
+What do you drink?
 
-@assignment
 
-"Anne and I have a project due at 8 am." Ben says.
+- @coffee: A single black coffee
+- @tea: A warm cup of tea
+- @potion: A bubbling green potion
 
-"We've been not doing it."
+@coffee
 
-@merriment
+This place isn't known for its coffee. Your friends rib you for your addiction.
 
-"Imagine sleeping, couldn't be me."
+
+
+It's worth it though. It may be swill, but it's bitter in a way you enjoy.
+@tea
+
+It's sweeter than you like your tea.
+
+@potion
+
+It hisses as you uncork the lid.
+
+"Don't do it! Not again!" 
+
+-@No: Let it settle
+-@Do: Stare her in the eye 
+
+@No
+
+You let it sit for a moment. 
+Some seem grateful. Others, disappointed.
+
+@Do
+
+You let your gaze linger on the last speaker.
+
+Then you tilt the bottle back and chug it.
 
 @eat
 new-page: false
